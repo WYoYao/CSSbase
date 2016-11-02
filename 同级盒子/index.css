@@ -1,0 +1,16 @@
+.left{
+    margin-right: 50px;
+    background: lightgreen;
+}
+.right{
+    margin-left: 50px;
+    background: lightpink;
+}
+.top{
+    margin-bottom: 50px;
+    background: lightgreen;
+}
+.bottom{
+    margin-top: 50px;
+    background: lightpink;
+}
