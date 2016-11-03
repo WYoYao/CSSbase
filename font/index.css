@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+
+p{
+    /*font-family 可以设置多个字体类型，如果一个没有使用后面的依次，后面的字体需要使用“” 括起来*/
+    font-family: DFKai-SB,'微软雅黑';
+    font-size: 12px;
+    /*子元素会继承 父级的元素，这样下面span 标签会继承然后会显的有点小，因为也是line-height:18px*/
+    /*line-height: 18px;*/
+    /*可以使用倍数来解决这个问题，设置行高为字体大小的1.5倍，然后被span继承，为span font-size 的1.5倍，就不会出现刚才的问题了*/
+    line-height: 1.5;
+}
+.firstletter{
+    /*三倍于普通字体*/
+    font-size: 3em;
+    float: left;
+}
+h2{
+    /*可以使用background 或者 background-color 来设置对应的颜色*/
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.p1{
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px;
+    border: 1px gray double;
+    float: left;
+}

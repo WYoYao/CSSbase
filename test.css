@@ -1,0 +1,15 @@
+#outer{
+    margin: 100px auto;
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    background: #F36E21;
+}
+
+#inner{
+    margin: 500px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background: #E5D47A;
+}

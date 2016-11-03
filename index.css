@@ -2,40 +2,64 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
+    font-family: '微软雅黑';
 }
 
-.father{
-    background-color: lightyellow;
-    border: 1px solid #111111;
+/*#27B1CE*/
+/*#E5D47A*/
+/*#F36E21*/
+#menu{
+    width: 100px;
+    margin: 30px auto;
+    background: #27B1CE;
     padding: 5px;
-    margin: 10px;
 }
 
-.clear::after{
+#menu a{
+    position: relative;
+    margin: 10px 10px;
     display: block;
-    content: '';
-    clear: both;
+    background: #27B1CE;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    height: 1em;
+    line-height: 1em;
+    border: 1px solid #27B1CE;
+}
+#menu a:hover{
+    border: 1px solid #F36E21;
+    color: #F36E21;
 }
 
-.father div{
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #111111;
-    background-color: lightgreen;
+#menu a:hover .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 0;
+    width: 0;
+    border: 0.5em solid #27B1CE;
+    border-left-color:#F36E21;
 }
 
-.son1{
-    float: left;
-}
-
-.son2{
-    float: left;
-    position: fixed;
+#menu a:hover .right{
+    position: absolute;
     top: 0;
     right: 0;
+    display: block;
+    height: 0;
+    width: 0;
+    border: 0.5em solid #27B1CE;
+    border-right-color:#F36E21;
 }
 
-.son3{
+#menu a .title{
+    position: absolute;
+    display: block;
     float: left;
+    height: 10px;
+    width: 10px;
+    right: -100%;
+    background: red;
 }
-
