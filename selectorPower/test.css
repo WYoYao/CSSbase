@@ -1,0 +1,79 @@
+body .span1 .span2 .span3 .span4 .span5 .span6 .span7 .span8 .span9 .span10 .span11 span{
+    color: red;
+}
+
+.span1{
+    color: red;
+}
+
+.span2{
+    color: red;
+}
+
+.span3{
+    color: red;
+}
+
+.span4{
+    color: red;
+}
+
+.span5{
+    color: red;
+}
+
+.span6{
+    color: red;
+}
+
+.span7{
+    color: red;
+}
+
+.span8{
+    color: red;
+}
+
+.span9{
+    color: red;
+}
+
+.span10{
+    color: red;
+}
+
+
+#test{
+    color: #ffffff;
+}
+#bb [attr]{
+    color: lightgreen;
+}
+
+#testp{
+    color: lightseagreen;
+}
+
+#inner > span{
+    color: lightskyblue;
+}
+
+#conetnt{
+    color: lightpink;
+}
+
+body #span1 #span2 #span3 #span4 #span5 #span6 #span7 #span8 #span9 #span10 span{
+    color: red;
+}
+
+#span11{
+    color: lightgoldenrodyellow;
+}
+
+em>p{
+    color: lightcyan;
+}
+
+*{
+    color: lightslategray;
+}

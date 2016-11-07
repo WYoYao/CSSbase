@@ -1,0 +1,40 @@
+body{
+    font-size: 62.5%;
+}
+
+#wrapper{
+    margin: 0 auto;
+}
+
+#branding{
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#content{
+    width: 42em;
+    float: right;
+    height: 30em;
+}
+#mainContent{
+    float: left;
+    width: 20em;
+    background: lightsalmon;
+}
+#seconedary{
+    float: right;
+    width: 12em;
+    background: lightskyblue;
+}
+
+#main{
+    width: 18em;
+    float: left;
+    height: 30em;
+    background: lightcyan;
+
+}
+#footer{
+    background: lightgray;
+    clear: both;
+}
